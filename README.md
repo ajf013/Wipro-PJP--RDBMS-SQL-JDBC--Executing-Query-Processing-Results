@@ -1,37 +1,15 @@
-## Wipro-PJP--RDBMS-SQL-JDBC--Oracle-11g-Introduction
-
-## **Oracle 11g Introduction**
+## Wipro-PJP--RDBMS-SQL-JDBC--Wipro-PJP--RDBMS-SQL-JDBC--Executing-Query-Processing-Results
 
 **1.**
 
 ```
- Using SQL Developer: Create a database connection using the following information:
-Connection Name: myconnection
-Username: hr
-Password: hr
-Hostname: localhost
-Port: 1521
-SID: ORCL
-Ensure that you select the Save Password check box.
-Testing and Connecting Using the Oracle SQL Developer Database Connection
-If the status is Success, connect to the database using this new connection.
+ Write a java program that connects to oracle database, queries the inbuilt table “emp” and displays the first two columns (empno using column index and ename using column name ) of all the rows.
 ```
 
 **2.**
 
 ```
- Expand MyConnection -- > Explore
-All the available table
-structure of Employee table - its columns
-view the data tab of the Employee tables
-```
-
-**3.**
-
-```
- Start SQLPLUS
-using UserName : hr
-password : hr
+ Modify the above program to display all the rows where sal is greater than 1000 and less than 2000. Display the columns ename, job, sal and comm.
 ```
 
 ## You can reach out 😊😊
